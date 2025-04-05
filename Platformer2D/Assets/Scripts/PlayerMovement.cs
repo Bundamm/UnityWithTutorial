@@ -23,6 +23,11 @@ public class PlayerMovement : MonoBehaviour
 
         playerController.WallSlide();
         playerController.WallJump();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     public void OnLanding()
