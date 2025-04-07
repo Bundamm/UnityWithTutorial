@@ -5,6 +5,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public PlayerController playerController;
     public Animator animator;
+    private bool hasBeenCollected = false;
+    public AppleManager appleManager;
 
     float horizontalMove = 0f;
     
@@ -36,10 +38,22 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("OnWall", false);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!hasBeenCollected && other.gameObject.CompareTag("Apple"))
+        {
+            hasBeenCollected = true;
+            Debug.Log("apple");
+            appleManager.appleCount+=1;
+            Destroy(other.gameObject);
+            
+        }
+    }
+    
     void FixedUpdate()
     {           
         playerController.Move(horizontalMove * Time.fixedDeltaTime, jump);
         jump = false;
-
+        hasBeenCollected = false;
     }
 }
