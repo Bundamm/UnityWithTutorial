@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4dca9306fd2b1c4989eda21e62bbb50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appleCount: 0
+  appleCount: 9999
   appleText: {fileID: 0}

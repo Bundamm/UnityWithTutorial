@@ -524,7 +524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1009569873060599411, guid: 649d793593937084aab089a6e9f3235d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1347.7
+      value: -1346.4
       objectReference: {fileID: 0}
     - target: {fileID: 1009569873060599411, guid: 649d793593937084aab089a6e9f3235d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -544,11 +544,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7379429982126409672, guid: 649d793593937084aab089a6e9f3235d, type: 3}
       propertyPath: m_text
-      value: 'If you walljump at the last minute before touching the ground, you
-        will gain upwards momentum
+      value: 'Level Two
+
+        Corner jumping
 
 
-        TRY IT!!'
+
+        If you walljump at the
+        last minute before touching the ground, you will gain upwards momentum
+
+
+        TRY
+        IT!!'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -918,6 +925,10 @@ PrefabInstance:
       propertyPath: appleManager
       value: 
       objectReference: {fileID: 1106696680735126809}
+    - target: {fileID: 7169841740618559441, guid: 70808b91e09d64cb1ac3c1cc6dcc5281, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6367560908665664636, guid: 3750f45c844123341b9a777a96cb1eca, type: 3}
     - target: {fileID: 7868748187763089100, guid: 70808b91e09d64cb1ac3c1cc6dcc5281, type: 3}
       propertyPath: m_Name
       value: Player
@@ -58178,6 +58189,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1630670690675453766, guid: 1658c7137cc9944468f76ad7e5480b4f, type: 3}
+      propertyPath: m_fontSize
+      value: 49.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630670690675453766, guid: 1658c7137cc9944468f76ad7e5480b4f, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3540166746780153211, guid: 1658c7137cc9944468f76ad7e5480b4f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
