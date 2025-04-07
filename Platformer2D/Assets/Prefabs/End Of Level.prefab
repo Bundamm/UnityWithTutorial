@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 5096881696952466738}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.33, y: 6.7541943, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: -14.53, y: 44.92, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d4f875d5b7e4067910b7d11d255888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  appleManager: {fileID: 7833502814036724472, guid: fdf1d0a5a933d4b7bac21bc4b4cbc048, type: 3}
 --- !u!61 &2166797253777494006
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -8,9 +8,13 @@ public class LoadLevel : MonoBehaviour
     public AppleManager appleManager;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player") && appleManager.appleCount == 0)
+        if (other.gameObject.CompareTag("Player") && appleManager.appleCount <= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else
+        {
+            Debug.Log("DZIAŁA");
         }
     }
 }

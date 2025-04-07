@@ -44,7 +44,6 @@ public class PlayerMovement : MonoBehaviour
         {
             hasBeenCollected = true;
             Debug.Log("apple");
-            appleManager.appleCount+=1;
             Destroy(other.gameObject);
             
         }
